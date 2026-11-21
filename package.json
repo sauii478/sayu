@@ -1,4 +1,4 @@
-﻿{
+{
   "name": "sayu-timetable",
   "version": "1.0.0",
   "private": true,
@@ -9,5 +9,7 @@
   "scripts": {
     "start": "node server.js"
   },
-  "dependencies": {}
+  "dependencies": {
+    "pg": "^8.13.1"
+  }
 }
